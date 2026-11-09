@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="ЧистоДом — профессиональная уборка квартир и офисов. Поддерживающая и генеральная уборка, клининг после ремонта."
+    />
+
+    <title>ЧистоДом — профессиональная уборка</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- ШАПКА САЙТА -->
+
+    <header class="header">
+      <div class="container header-inner">
+        <a href="#" class="logo"> Чисто<span>Дом</span> </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          ☰
+        </button>
+
+        <nav id="main-nav" aria-label="Главная навигация">
+          <a href="#services">Услуги</a>
+          <a href="#about">О нас</a>
+          <a href="#pricing">Цены</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ГЛАВНЫЙ ЭКРАН -->
+
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Профессиональная уборка квартир</p>
+
+            <h1>Идеальная чистота без лишних хлопот</h1>
+
+            <p class="hero-text">
+              Мы заботимся о чистоте вашего дома, чтобы вы могли уделять больше
+              времени тому, что действительно важно.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contacts" class="button"> Рассчитать стоимость </a>
+
+              <a href="#services" class="button-outline"> Наши услуги </a>
+            </div>
+
+            <p class="hero-note">Удобная запись · Бережная уборка</p>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
+              alt="Светлая и чистая современная квартира"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- НАШИ УСЛУГИ -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Наши услуги</p>
+
+            <h2>Чистота для любого пространства</h2>
+
+            <p>Выберите подходящий вид уборки. Мы позаботимся об остальном.</p>
+          </div>
+
+          <div class="services-grid">
+            <!-- УСЛУГА 1 -->
+            <article class="service-card">
+              <img
+                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80"
+                alt="Уборка жилого помещения"
+                loading="lazy"
+              />
+
+              <div class="service-content">
+                <h3>Поддерживающая уборка</h3>
+
+                <p>
+                  Регулярная уборка квартиры: удаление пыли, мытьё полов, уборка
+                  кухни и ванной комнаты.
+                </p>
+
+                <div class="service-bottom">
+                  <span class="price">от 2 500 ₽</span>
+
+                  <a href="#contacts"> Заказать → </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- УСЛУГА 2 -->
+            <article class="service-card">
+              <img
+                src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=900&q=80"
+                alt="Современная чистая ванная комната"
+                loading="lazy"
+              />
+
+              <div class="service-content">
+                <h3>Генеральная уборка</h3>
+
+                <p>
+                  Глубокая очистка поверхностей, труднодоступных мест,
+                  сантехники и мебели.
+                </p>
+
+                <div class="service-bottom">
+                  <span class="price">от 5 000 ₽</span>
+
+                  <a href="#contacts"> Заказать → </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- УСЛУГА 3 -->
+            <article class="service-card">
+              <img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"
+                alt="Светлый интерьер после уборки"
+                loading="lazy"
+              />
+
+              <div class="service-content">
+                <h3>Уборка после ремонта</h3>
+
+                <p>
+                  Удаление строительной пыли, очистка поверхностей, окон и
+                  помещений после ремонта.
+                </p>
+
+                <div class="service-bottom">
+                  <span class="price">от 7 000 ₽</span>
+
+                  <a href="#contacts"> Заказать → </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ПОЧЕМУ ВЫБИРАЮТ НАС -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Почему мы</p>
+
+            <h2>Уборка без лишних хлопот</h2>
+
+            <p>Продуманный сервис для вашего комфорта.</p>
+          </div>
+
+          <div class="benefits-grid">
+            <!-- ПРЕИМУЩЕСТВО 1 -->
+            <article class="benefit">
+              <div class="benefit-icon">✦</div>
+
+              <h3>Внимание к деталям</h3>
+
+              <p>Уделяем внимание каждой комнате и труднодоступным местам.</p>
+            </article>
+
+            <!-- ПРЕИМУЩЕСТВО 2 -->
+            <article class="benefit">
+              <div class="benefit-icon">✓</div>
+
+              <h3>Удобное расписание</h3>
+
+              <p>Выбирайте подходящий день и время для уборки.</p>
+            </article>
+
+            <!-- ПРЕИМУЩЕСТВО 3 -->
+            <article class="benefit">
+              <div class="benefit-icon">♡</div>
+
+              <h3>Бережный подход</h3>
+
+              <p>
+                Аккуратно относимся к мебели, поверхностям и вашему
+                пространству.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ЦЕНЫ -->
+      <section class="section pricing-section" id="pricing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Стоимость</p>
+
+            <h2>Прозрачные цены</h2>
+
+            <p>
+              Итоговая стоимость зависит от площади помещения и сложности
+              уборки.
+            </p>
+          </div>
+
+          <div class="pricing-box">
+            <div class="pricing-row">
+              <span>Поддерживающая уборка</span>
+              <strong>от 2 500 ₽</strong>
+            </div>
+
+            <div class="pricing-row">
+              <span>Генеральная уборка</span>
+              <strong>от 5 000 ₽</strong>
+            </div>
+
+            <div class="pricing-row">
+              <span>Уборка после ремонта</span>
+              <strong>от 7 000 ₽</strong>
+            </div>
+
+            <p class="pricing-note">
+              Цены приведены для демонстрационного проекта.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- КОНТАКТЫ -->
+
+      <section class="section" id="contacts">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Оставить заявку</p>
+            <h2>Рассчитаем стоимость уборки</h2>
+            <p>
+              Заполните форму, чтобы увидеть демонстрацию оформления заявки.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="client-name">Ваше имя</label>
+                <input
+                  type="text"
+                  id="client-name"
+                  name="name"
+                  placeholder="Например, Анна"
+                  autocomplete="name"
+                  required
+                  minlength="2"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="client-phone">Телефон</label>
+                <input
+                  type="tel"
+                  id="client-phone"
+                  name="phone"
+                  placeholder="+7 999 123-45-67"
+                  autocomplete="tel"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="service-type">Тип уборки</label>
+                <select id="service-type" name="service" required>
+                  <option value="">Выберите услугу</option>
+                  <option value="regular">Поддерживающая уборка</option>
+                  <option value="general">Генеральная уборка</option>
+                  <option value="renovation">Уборка после ремонта</option>
+                </select>
+              </div>
+
+              <button type="submit" class="button form-button">
+                Отправить заявку
+              </button>
+
+              <p class="form-disclaimer">
+                Демонстрационная форма. Данные никуда не отправляются и не
+                сохраняются. Не вводите реальные персональные данные.
+              </p>
+
+              <p
+                id="form-message"
+                class="form-message"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ПОДВАЛ САЙТА -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 ЧистоДом. Демонстрационный проект для портфолио.</p>
+      </div>
+    </footer>
+  </body>
+</html>
